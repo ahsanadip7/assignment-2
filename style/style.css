@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  /* shared style */
+.text-color{
+    color: #FFFFFF;
+}
+
+
+  /* header part style */
+  
+  /* nav style */
+
+  header{
+    background-color: rgba(0, 0, 0, 0.897); 
+    padding-left: 190px;
+    padding-right: 214px;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 58px;
+    margin-bottom: 96px;
+   
+    }
+  nav>ul{
+    display: flex;
+  }
+  nav>ul>li{
+  list-style: none;
+  margin-right: 40px;
+  }
+  a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  nav>h1{
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+    color: #E6533C;
+  }
+.shape{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+                                                
+ 
+  #home-nav{
+    width: 92px;
+    height: 38px;
+    border-radius: 46px;
+    background-color: #E6533C;
+  }
+  #home-nav>a{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  li>a {
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+  }
+  .nav-second-half{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-parent{
+    width: 520px;
+  }
+  .heading{
+    font-weight: bolder;
+    font-size: 78px;
+  }
+  .nav-parent>p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+
+  .join-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    border-color: #E6533C;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .download-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: rgba(0, 0, 0, 0.897);
+    border-color: #FFFFFF;
+    font-weight : 600;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .banner-img{
+    width: 349px;
+    height: 580px;
+
+  }
+  .navbar{
+    display: none;
+  }
+
+  @media screen and (max-width:576px) {
+    .nav-menu{
+      display: none;
+    }
+    .navbar{
+      display: block;
+      margin-left: 100px;
+      margin-bottom: 10px;
+    }
+    
+  header{
+    height:auto;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  nav{
+    padding-top: 30px ;
+    margin-bottom: 0px;
+  }
+  .heading{
+   width: 285px;
+  font-size: 36px;
+  }
+  .banner-pera{
+    width: 274px;
+    height: 96px;
+  }
+ .nav-second-half{
+  display: grid;
+ }
+  .banner-img{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  }
