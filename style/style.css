@@ -11,8 +11,28 @@
   }
 
   /* shared style */
-.text-color{
-    color: #FFFFFF;
+.text-color-pera{
+    color: #ffffff96;
+}
+.tex-color-heading{
+  color: #FFFFFF;
+}
+.font-48{
+  font-weight: bolder;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.font-14{
+  color: #ffffff96;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.font-18{
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
 }
 
 
@@ -21,7 +41,7 @@
   /* nav style */
 
   header{
-    background-color: rgba(0, 0, 0, 0.897); 
+    background-color: rgb(8, 8, 8); 
     padding-left: 190px;
     padding-right: 214px;
   }
@@ -51,10 +71,6 @@
     font-style: italic;
     color: #E6533C;
   }
-.shape{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-                                                
  
   #home-nav{
     width: 92px;
@@ -85,6 +101,7 @@
   .nav-parent>p{
     font-size: 16px;
     letter-spacing: 0.5px;
+    margin-bottom: 40px;
   }
 
   .join-btn{
@@ -115,39 +132,71 @@
     display: none;
   }
 
-  @media screen and (max-width:576px) {
-    .nav-menu{
-      display: none;
-    }
-    .navbar{
-      display: block;
-      margin-left: 100px;
-      margin-bottom: 10px;
-    }
-    
-  header{
-    height:auto;
-    padding-left: 20px;
-    padding-right: 10px;
-  }
-  nav{
-    padding-top: 30px ;
-    margin-bottom: 0px;
-  }
-  .heading{
-   width: 285px;
-  font-size: 36px;
-  }
-  .banner-pera{
-    width: 274px;
-    height: 96px;
-  }
- .nav-second-half{
-  display: grid;
- }
-  .banner-img{
-    margin-top: 50px;
-    margin-left: 20px;
+  /* body styles */
+  main{
+    margin-top: 100px;
   }
 
+  /* summery 1 */
+
+  body{
+    background-color: rgb(0, 0, 0); 
   }
+
+.summery-1{
+  text-align: center;
+ 
+}
+.summery-1>p{
+          width: 671px;
+          margin: 0px auto;
+}
+
+
+.summery-1-main{
+  display: flex;
+  margin-left: 300px;
+  margin-top: 40px;
+
+}
+.summery-1-img{
+ border-radius: 50%;
+}
+.summery-1-parent{
+  width: 231px ;
+  text-align: center;
+  margin-left: 80px;
+}
+
+
+/* main-2 sytyle */
+
+
+.summery-2-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 165px;
+  padding: 15px;
+  width: 1060px;
+  background-color: #222222;
+  border-radius: 18px;
+}
+.run-img{
+  width: 366px;
+  height: 312px;
+  margin-top: 20px;
+  border-radius: 18px;
+}
+
+.summery-2-child{
+  width: 443px;
+}
+.summery-2-child>button{
+  margin-top: 10px;
+}
+.summery-2{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}

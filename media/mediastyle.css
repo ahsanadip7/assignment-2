@@ -1,0 +1,99 @@
+@media screen and (max-width:576px) {
+    .nav-menu{
+      display: none;
+    }
+    .navbar{
+      display: block;
+      margin-left: 300px;
+      margin-bottom: 10px;
+    }
+    
+  header{
+    height:auto;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  nav{
+    padding-top: 30px ;
+    margin-bottom: 0px;
+  }
+  .heading{
+   width: 285px;
+  font-size: 36px;
+  }
+  .banner-pera{
+    width: 274px;
+    height: 96px;
+  }
+ .nav-second-half{
+  display: grid;
+ }
+  .banner-img{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  }
+
+  /* body */
+
+  /* main 1 */
+
+  @media screen and (max-width:576px) {
+
+   .main-1{
+      display: grid;
+
+   }
+   .summery-1{
+    text-align: center;
+    margin-left: 10px;
+  }
+  .summery-1>h1{
+    text-align: center;
+  }
+  .summery-1>p{
+    text-align: center;
+    width: 471px;
+  
+}
+
+   .summery-1-main{
+    display: grid;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;  
+  }
+  .summery-1-parent{
+  
+    margin-left: 30px;
+  }
+  }
+
+  /* main 2 */
+
+  @media screen and (max-width:576px) {
+    .summery-2-parent{
+      display: block;
+      gap: 31px;
+      height: 531px;
+      width: 353px;
+    
+    }
+  .summery-2{
+  margin: 0px auto;
+  }
+    .summery-2-child>h1{
+      font-size: 32px;
+      width: 287px;
+    }
+    .summery-2-child>p{
+      width: 287px;
+    }
+    .run-img{
+      width: 287px;
+      height: 170px;
+      margin-top: 20px;
+      border-radius: 18px;
+    }
+  }
