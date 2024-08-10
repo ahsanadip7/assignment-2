@@ -40,7 +40,7 @@
          <div class="nav-second-half">
             <div class="nav-parent">
                 <h1 class="heading tex-color-heading">
-                    Get body in <span class="shape">shape </span> & stay healthy
+                    Get body in <span class="playwrite-cu">shape </span> & stay healthy
                 </h1>
 
                 <p class="banner-pera text-color-pera">
@@ -140,7 +140,7 @@
      <main>
           
         <section class="main-3-summery">
-            <div>
+            <div class="m3_heading">
                 <h1 class="font-48"> Trainings and Exercises</h1>
                 <p class="font-14">we belive fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
@@ -171,14 +171,15 @@
      <!-- main 4 -->
 
      <main>
-
-      <section>
         <div>
-            <h1 class="font-48">BMI Calculator</h1>
-            <p class="font-14">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <h1 class="font-48 m4_heading">BMI Calculator</h1>
+            <p class="font-14 bmi">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
         </div>
 
-        <div>
+      <section class="m4_section">
+    
+     
+        <div class="Calculato_chart">
             <h1 class="font-30">BMI Calculator Chart</h1>
             <div>
                 <table class="bmi-table">
@@ -212,15 +213,24 @@
 
         <div>
             <h1 class="font-30">Calculate your BMI</h1>
-            <p class="font-14">enter the values that is needed in the boxs. and then click on the calculate button to know the result</p>
+            <p class="font-14 Calculator_summery">enter the values that is needed in the boxs. and then click on the calculate button to know the result</p>
             <div class="input-type">
-             <input type="text" name="height" id="" placeholder="Height/cm">
-             <input type="text" name="weight" id="" placeholder="weight/kg">
-             <input type="number" name="age" id="" placeholder="Age">
-             <input type="Gender" placeholder="sex">
-             <input class="input-fact" type="text" placeholder="Select an activity factor">
+             <input class="input" type="text" name="height" id="" placeholder="Height/cm">
+             <input class="input" type="text" name="weight" id="" placeholder="weight/kg">
+             <input class="input" type="number" name="age" id="" placeholder="Age">
+            <select class="input input_option" name="" id="">
+                <option value="gender">sex</option>
+                <option value="gender">male</option>
+                <option value="gender">female</option>
+            </select>
+            <select class="input_factor" name="" id="">
+                <option value="">Select an activity factor</option>
+            </select>
              
             </div>
+            <div>
+                <button class="join-btn" id="calculate_btn">Calculate</button>
+               </div>
         </div>
       </section>
      

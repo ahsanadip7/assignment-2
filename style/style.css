@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Playwrite+CU:wght@100..400&display=swap');
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -9,6 +9,14 @@
     font-variation-settings:
       "slnt" 0;
   }
+
+  .playwrite-cu{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+  
 
   /* shared style */
 .text-color-pera{
@@ -137,6 +145,8 @@
     display: none;
   }
 
+
+
   /* body styles */
   main{
     margin-top: 100px;
@@ -264,6 +274,17 @@
 
 /* main 4 style */
 
+.m4_heading{
+  width: 669px;
+  text-align: left;
+ margin: 5px auto;
+}
+.bmi{
+  width: 669px;
+  text-align: left;
+ margin: 5px auto 88px auto;
+}
+
 .table-head{
   width: 200px;
   height: 50px;
@@ -285,10 +306,56 @@
 
 .input-type{
   display: grid;
- grid-template-columns: repeat(2,300px);
+ grid-template-columns: repeat(2, 283px);
+gap: 15px;
  
 }
-.input-fact{
+.m4_section{
+  display: flex;
+  gap: 175px;
+  background-color: #222222;
+  align-items: center;
+  justify-content: center;
+padding-bottom: 40px;
+padding-top: 20px;
  
+}
 
+.Calculator_summery{
+  width: 588px;
+  height: 48px;
+  margin-bottom: 34px;
+}
+
+
+.input{
+  width: 282px;
+  height: 48px;
+  border: none;
+  padding-left: 10px;
+  color: #ffffff62;
+  background-color:  #ffffff10;
+  font-size: 16px;
+  font-weight: 22px;
+  border-radius: 8px;
+  
+}
+.input_option{
+  color: #ffffff50;
+  width: 294px;
+}
+.input_factor{
+  width: 588px;
+  height: 48px;
+  color: #ffffff62;
+  background-color: #ffffff10;
+  font-size: 16px;
+  font-weight: 22px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+#calculate_btn{
+  color: #FFFFFF;
 }
