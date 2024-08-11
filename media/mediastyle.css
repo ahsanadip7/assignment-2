@@ -30,8 +30,18 @@
  }
   .banner-img{
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
   }
+ 
+  .banner-img-btn-parent{
+   bottom: 150px;
+   right: 50px;
+    }
+    .banner-img-btn-parent-2{
+     bottom: 490px;
+     left: 200px;
+    
+     }
 
   }
 
@@ -104,6 +114,7 @@
     .m3_heading{
       width: 353px;
      height: 162px;
+     margin-left: 85px;
     }
 
     .img-1 {
@@ -155,4 +166,99 @@
     .exercise-img{
       margin-top: 30px;
     }
+  }
+
+  /* main 4 */
+
+  @media screen and (max-width:576px) {
+    .m4_heading{
+      width: 353px;
+      text-align: left;
+     margin: 5px auto;
+    }
+    .bmi{
+      width: 353px;
+      text-align: left;
+     margin: 5px auto 88px auto;
+    }
+
+    .m4_section{
+      display: grid;
+     gap: 50px;
+     
+    }
+
+    .table-head{
+      width: 125px;
+      height: 50px;
+     
+    }
+    .font-14>td{
+      width: 125px;
+      height: 50px;
+      padding-left: 45px;
+      border: 1px solid #ffffff96;
+    }
+   
+
+    .Calculator_summery{
+      width: 346px;
+      height: 72px;
+    
+    }
+    
+    .input{
+      width: 170.5px;
+      height: 48px;
+      
+    }
+    .input-type{
+      display: grid;
+     grid-template-columns: repeat(2, 170.5px);
+    gap: 15px;
+     
+    }
+    .input_option{
+    
+      width: 180px;
+    }
+    .input_factor{
+      width: 365px;
+      height: 48px;
+    
+    }
+  }
+
+  /* main 5 */
+
+  @media screen and (max-width:576px){
+
+    
+.main5-heading{
+  text-align: center;
+  }
+  
+  .main5-pera{
+  
+  width: 309px;
+  height: 72px;
+  
+  }  
+
+    .trainers{
+      width: 353px;
+      display: grid;
+     grid-template-columns: 1fr;
+      background-color: #ffffff13;
+      
+    }
+    .trainer-pic{
+      margin: 10px auto;
+    }
+
+    .none{
+      display: none;
+    }
+  
+
   }

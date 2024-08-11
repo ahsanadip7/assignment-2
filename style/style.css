@@ -136,11 +136,71 @@
     font-size: 18px;
     margin-left: 10px;
   }
+
+  /* banner img & btn */
   .banner-img{
     width: 349px;
     height: 580px;
 
   }
+  .banner-img-btn-parent{
+  background-color: #30303056;
+  width: 206px;
+  height: 96px;
+  border-color: #efede810;
+  display: flex;
+  align-items: center;
+ padding-left: 20px;
+ border-radius: 12px;
+ position: relative;
+ bottom: 150px;
+ right: 170px;
+  }
+
+  .child-1{
+    background-color: #E6533C;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+  }
+
+  .child-2>h1{
+   width: 68px;
+   height: 15px;
+   color: #FAFAF9;
+
+  }
+  .banner-img-btn-parent>.child-2>p{
+    width: 146px;
+    height: 15px;
+    color: #efede865;
+   }
+ .banner-img-btn-parent-2{
+  background-color: #30303056;
+  width: 193px;
+  height: 98px;
+  border-color: #efede810;
+  display: flex;
+  align-items: center;
+ padding-left: 20px;
+ border-radius: 12px;
+ position: relative;
+ bottom: 520px;
+ left: 220px;
+
+ }
+ .step-child{
+ line-height: 20px;
+ letter-spacing: 1px;
+ font-size: 13px;
+ width: 160px;
+ height: 15px;
+ color: #efede865;
+ }
+
+  /* nav bar */
   .navbar{
     display: none;
   }
@@ -358,4 +418,47 @@ padding-top: 20px;
 }
 #calculate_btn{
   color: #FFFFFF;
+}
+
+/* main 5 */
+
+.main5-summery{
+  margin-bottom: 100px;
+}
+
+.main5-heading{
+text-align: center;
+}
+
+.main5-pera{
+  text-align: center;
+width: 671px;
+height: 8px;
+margin: 0px auto;
+}
+
+.trainers{
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin: 0px auto;
+  padding: 10px;
+  background-color: #ffffff13;
+  
+}
+
+.trainer-pic{
+  width: 326px;
+  height: 272px;
+  border-radius: 12px;
+}
+
+.trainer-name{
+  width: 217px;
+  height: 24px;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 50px;
+  left: 20px;
 }
