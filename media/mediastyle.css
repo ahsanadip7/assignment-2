@@ -10,13 +10,22 @@
     
   header{
     height:auto;
-    padding-left: 20px;
-    padding-right: 10px;
+    padding-left: 0px; 
+    padding-right: 0px;
+   
   }
   nav{
     padding-top: 30px ;
     margin-bottom: 0px;
+  padding-left: 25px;
   }
+  nav>ul{
+    width: 350px;
+  }
+  .nav-parent{
+    padding-left: 25px;
+  }
+
   .heading{
    width: 285px;
   font-size: 36px;
@@ -46,37 +55,37 @@
   }
 
   /* body */
+  body{
+    margin: 0px;
+  }
 
   /* main 1 */
 
   @media screen and (max-width:576px) {
 
-   .main-1{
-      display: grid;
 
-   }
-   .summery-1{
-    text-align: center;
-    margin-left: 10px;
-  }
+ 
   .summery-1>h1{
+    font-size: 32px;
     text-align: center;
+    width: 318px;
+    margin: 10px 60px;
   }
   .summery-1>p{
     text-align: center;
-    width: 471px;
+    width: 318px;
+    margin-left: 60px;
   
 }
 
    .summery-1-main{
     display: grid;
-    margin-left: 0px;
-    justify-content: center;
-    align-items: center;  
+    margin: 20px auto;
+    width: 338px;
   }
   .summery-1-parent{
   
-    margin-left: 30px;
+    margin-left: 0px;
   }
   }
 
@@ -88,11 +97,20 @@
       gap: 31px;
       height: 531px;
       width: 353px;
+      margin-left: 0px;
     
     }
-  .summery-2{
-  margin: 0px auto;
-  }
+    .summery-2{
+      display: grid;
+      justify-content: left;
+      margin-left: 35px;
+      
+    }
+    .summery-2-child{
+      display: grid;
+    margin-left: 45px;
+    }
+ 
     .summery-2-child>h1{
       font-size: 32px;
       width: 287px;
@@ -100,11 +118,15 @@
     .summery-2-child>p{
       width: 287px;
     }
+    .summery-2-child>.join-btn{
+      margin-left: 20px;
+    }
     .run-img{
       width: 287px;
       height: 170px;
       margin-top: 20px;
       border-radius: 18px;
+      margin-left: 35px;
     }
   }
 
@@ -114,19 +136,41 @@
     .m3_heading{
       width: 353px;
      height: 162px;
-     margin-left: 85px;
+     margin-left: 45px;
     }
 
+
+  .exercise-img-first{
+    width: 353px;
+    height: 126px;
+  }
+  .exercise-img-second{
+    width: 353px;
+    height: 126px;
+  }
+
+ 
     .img-1 {
       width: 157px;
       height: 128px;
       
+    }
+    .color-1{
+      width: 157px;
+      height: 127px;
+      bottom: 132.5px;
     }
     
     .img-2 {
       width: 210px;
       height: 128px;
       
+    }
+    .color-2{
+   
+      width: 210px;
+      height: 127px;
+      bottom: 132.5px;
     }
     .img-4 {
       width: 157px;
@@ -136,16 +180,23 @@
       width: 210px;
       height: 128px;
     }
-    .img-3 {
-      width: 300px;
-      height: 200px;
+    .color-3{
+   
+      width: 210px;
+      height: 127px;
+      bottom: 132.5px;
+    }
+
+    .img-3{
       display: none;
     }
-    .img-6 {
-      width: 360px;
-      height: 200px;
+    .img-6{
       display: none;
     }
+    .color-4{
+      display: none;
+    }
+   
 
     .main-3-summery{
       display: block;
@@ -165,6 +216,10 @@
 
     .exercise-img{
       margin-top: 30px;
+        display: grid;
+        justify-content: left;
+        margin-left: 45px;
+      
     }
   }
 
@@ -174,20 +229,23 @@
     .m4_heading{
       width: 353px;
       text-align: left;
-     margin: 5px auto;
+     margin-left: 45px;
     }
     .bmi{
       width: 353px;
       text-align: left;
-     margin: 5px auto 88px auto;
+     margin: 5px auto 88px 45px;
     }
 
+ 
     .m4_section{
       display: grid;
      gap: 50px;
-     
+     justify-content: left;
+     padding-left: 45px;
+  
     }
-
+  
     .table-head{
       width: 125px;
       height: 50px;
@@ -235,30 +293,54 @@
 
     
 .main5-heading{
-  text-align: center;
+  text-align: left;
+  margin-left: 45px;
   }
   
   .main5-pera{
-  
+  text-align: left;
+  margin-left: 45px;
   width: 309px;
   height: 72px;
   
   }  
 
-    .trainers{
-      width: 353px;
-      display: grid;
-     grid-template-columns: 1fr;
-      background-color: #ffffff13;
-      
-    }
-    .trainer-pic{
-      margin: 10px auto;
-    }
+  .trainers{
+    display: none;
+  }
 
-    .none{
-      display: none;
-    }
-  
+  .mediascreen{
+    display: grid;
+    grid-template-columns: 1fr;
+   margin-left: 40px;
+  }
+ 
+  .trainers{
+    width: 327px;
+    
+  }
 
   }
+
+/* footer style */
+
+@media screen and (max-width:576px){
+  .footer-section{
+    display: grid;
+    justify-content: space-between;
+    width: 393px;
+    margin: 0px ;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  
+.footer-foot{
+  width: 393px;
+  margin: 0px auto;
+ border-top: 1px solid #ffffff10;
+ padding-bottom: 3px;
+}
+
+
+}
