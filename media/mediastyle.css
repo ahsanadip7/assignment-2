@@ -1,4 +1,7 @@
 @media screen and (max-width:576px) {
+
+
+
     .nav-menu{
       display: none;
     }
@@ -23,8 +26,12 @@
   margin-right: 5px;
  
   }
+  nav>ul>li{
+   margin-right: 0px;
+    }
  
   .nav-parent{
+    width: 353px;
     padding-left: 15px;
   }
 
@@ -111,18 +118,20 @@
 
   @media screen and (max-width:576px) {
 
-
+ .summery-1{
+  width: 393px;
+ }
  
   .summery-1>h1{
     font-size: 32px;
     text-align: center;
     width: 318px;
-    margin: 10px 10px;
+    margin: 10px 5px;
   }
   .summery-1>p{
     text-align: center;
     width: 318px;
-    margin-left: 10px;
+    margin-left: 5px;
   
 }
 
@@ -152,12 +161,13 @@
     .summery-2{
       display: grid;
       justify-content: left;
-      margin-left: 10px;
+      margin-left: 5px;
       
     }
     .summery-2-child{
       display: grid;
     margin-left: 15px;
+      width: 353px;
     }
     .summery-2-child>button{
       width: 287px;
@@ -177,7 +187,7 @@
       height: 170px;
       margin-top: 20px;
       border-radius: 18px;
-      margin-left: 10px;
+      margin-left: 12px;
     }
   }
 
@@ -187,7 +197,7 @@
     .m3_heading{
       width: 353px;
      height: 162px;
-     margin-left: 10px;
+     margin-left: 5px;
     }
 
 
@@ -269,7 +279,8 @@
       margin-top: 30px;
         display: grid;
         justify-content: left;
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-top: 70px;
       
     }
   }
@@ -280,12 +291,12 @@
     .m4_heading{
       width: 353px;
       text-align: left;
-     margin-left: 10px;
+     margin-left: 2px;
     }
     .bmi{
       width: 353px;
       text-align: left;
-     margin: 5px auto 88px 10px;
+     margin: 5px auto 88px 2px;
     }
 
  
@@ -293,8 +304,8 @@
       display: grid;
      gap: 50px;
      justify-content: left;
-     padding-left: 20px;
-  
+     padding-left: 0px;
+     width: 393px;
     }
   
     .table-head{
@@ -383,7 +394,7 @@
   .footer-section{
     display: grid;
     justify-content: space-between;
-    width: 393px;
+    width: 383px;
     margin: 0px ;
     padding-left: 10px;
     padding-top: 30px;

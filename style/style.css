@@ -9,6 +9,11 @@
     font-variation-settings:
       "slnt" 0;
   }
+  
+  body{
+  
+    width: 393px;
+  }
 
   .playwrite-cu{
     font-family: "Playwrite CU", cursive;
@@ -46,6 +51,10 @@
   font-weight: bolder;
   font-size: 30px;
   color: #FFFFFF;
+}
+
+button{
+  
 }
 
 
